@@ -1,3 +1,4 @@
+version: "3.9"
 services:
   postgres:
     image: postgres:15
@@ -10,4 +11,5 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - C:/Users/alanm/portfolio-alanm/portfolio-alanm/projects/01-sql-ecommerce/src:/docker-entrypoint-initdb.d
+      - ./projects/01-sql-ecommerce/src:/docker-entrypoint-initdb.d
+      - ./projects/01-sql-ecommerce/data:/var/lib/postgresql/data/data
