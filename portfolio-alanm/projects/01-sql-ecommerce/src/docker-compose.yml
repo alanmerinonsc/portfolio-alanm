@@ -10,4 +10,4 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./projects/01-sql-ecommerce/src:/docker-entrypoint-initdb.d
+      - C:/Users/alanm/portfolio-alanm/portfolio-alanm/projects/01-sql-ecommerce/src:/docker-entrypoint-initdb.d
