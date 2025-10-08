@@ -1,0 +1,11 @@
+# Secrets & env
+src/postman_env.json
+*.env
+outputs/*.json
+outputs/*.csv
+
+# DB data
+data/
+node_modules/
+bin/
+obj/
