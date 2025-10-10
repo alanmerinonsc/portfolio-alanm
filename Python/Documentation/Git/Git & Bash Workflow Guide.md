@@ -40,9 +40,6 @@ This guide provides a comprehensive reference for navigating folders using Bash 
 |--------|-------------|
 | `git push -u origin main` | Pushes your local `main` branch to the remote `origin` and sets it as the default upstream. |
 | `git push` | Pushes committed changes to the remote branch (after upstream is set). |
-| `git push --set-upstream origin main` | Sets the upstream branch if it's not already configured. |
-| `git pull origin main --allow-unrelated-histories` | Merges remote changes into your local branch when histories differ. |
-| `git push -u origin main --force` | Force-pushes your local branch to overwrite the remote (use with caution). |
 
 ---
 
@@ -82,45 +79,3 @@ This guide provides a comprehensive reference for navigating folders using Bash 
   git commit -m "Add folder with contents"
   git remote add origin https://github.com/your-username/your-repo.git
   git push -u origin main
-  ```
-
----
-
-## 📝 Handling Git Merge Commit Messages (Vim Editor)
-
-When you run `git pull` and Git opens a merge commit message in Vim, follow these steps:
-
-### 🔧 If You See:
-```
-Merge branch 'main' of https://github.com/your-username/your-repo
--- INSERT --
-```
-
-### ✅ To Save and Exit:
-1. Press `Esc` to exit INSERT mode.
-2. Type `:wq` and press `Enter` to write and quit.
-
-### 🛑 To Exit Without Saving:
-1. Press `Esc`.
-2. Type `:q!` and press `Enter`.
-
-This will close the editor and return you to the terminal so Git can complete the merge.
-
----
-
-## 🧠 Tips
-
-- Use `git status` to see what’s changed.
-- Use `git log` to view commit history.
-- Use `git diff` to preview changes before committing.
-- Use `.gitignore` to exclude files from being tracked.
-
----
-
-## 📌 Notes
-
-- The `(main)` in your terminal prompt means you're on the `main` branch.
-- GitHub uses the **repository name** as the top-level folder — not your local folder name.
-- Always commit meaningful messages to track your project history effectively.
-
----
