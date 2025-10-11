@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:15
+    container_name: pg_portfolio
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ecommerce
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./projects/01-sql-ecommerce/src:/docker-entrypoint-initdb.d
+      - ./projects/01-sql-ecommerce/data:/var/lib/postgresql/data/data
