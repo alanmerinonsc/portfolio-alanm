@@ -1,8 +1,6 @@
-# Alan Merino – Data Engineering & ML Portfolio
-
 Welcome to my personal portfolio! I'm Alan Merino, a Database Architect and Engineering Leader with 9+ years of experience designing scalable data solutions, leading global teams, and bridging technical and business domains. This repository showcases my hands-on Python projects in machine learning, synthetic data generation, SQL fundamentals, and more! Everything in here has been built to demonstrate both technical depth and clarity of execution.
 ---
-## 📁 Current Repository Structure
+## Current Repository Structure
 
 - `/ML_Projects/` – Machine learning workflows and models  
 - `/Data_Generation/` – Synthetic data creation scripts and utilities  
@@ -11,7 +9,7 @@ Welcome to my personal portfolio! I'm Alan Merino, a Database Architect and Engi
 - `README.md` – This file
 
 ---
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 1. ML_Projects
 - **Classification & Regression Models**: Implemented using scikit-learn and pandas.
@@ -30,20 +28,20 @@ Welcome to my personal portfolio! I'm Alan Merino, a Database Architect and Engi
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Languages**: Python, SQL
 - **Libraries**: pandas, scikit-learn, NumPy, Faker
 - **Tools**: Sublime, Git, Power BI, Postman, Docker
 - **Cloud**: AWS (basic services)
 ---
-## 📚 Learning Goals
+## Learning Goals
 This portfolio reflects my ongoing growth in:
 - Applying ML techniques to real-world datasets
 - Generating clean, structured data for analytics
 - Strengthening SQL fluency for data manipulation and reporting
 - Documenting workflows for clarity and reproducibility
 ---
-## 📬 Contact
+## Contact
 Feel free to connect or collaborate!
 - 📧 [alanmerinonsc@gmail.com](mailto:alanmerinonsc@gmail.com)
 - 🌐 [LinkedIn](https://www.linkedin.com/in/alan-cmerino/)  
