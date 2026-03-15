@@ -19,13 +19,19 @@ Many of these projects are inspired by **real-world integration and data challen
 ---
 
 # Repository Structure
-/Python Utilities/ → Data generation, automation scripts, and developer utilities
-/CSharp Utilities/ → CLI tools for authentication, integrations, and cryptography
-/SQL_Basics/ → Query design, schema modeling, and SQL exercises
-/ML_Projects/ → Machine learning pipelines and predictive models
-/API_Projects/ → Custom API implementations and integration examples
-/docs/ → Architecture notes and technical documentation
-README.md → Portfolio overview
+•/Python Utilities/ → Data generation, automation scripts, and developer utilities
+
+•/CSharp Utilities/ → CLI tools for authentication, integrations, and cryptography
+
+•/SQL_Basics/ → Query design, schema modeling, and SQL exercises
+
+•/ML_Projects/ → Machine learning pipelines and predictive models
+
+•/API_Projects/ → Custom API implementations and integration examples
+
+•/docs/ → Architecture notes and technical documentation
+
+•README.md → Portfolio overview
 
 
 ---
