@@ -1,3 +1,8 @@
+# This script converts data between CSV and JSON formats. 
+# It reads an input file from a configured folder, processes it based on the selected mode 
+# (csv_to_json or json_to_csv), and writes the output to a specified location. 
+# It also validates the input file and ensures the output directory exists.
+
 import csv
 import json
 from pathlib import Path
